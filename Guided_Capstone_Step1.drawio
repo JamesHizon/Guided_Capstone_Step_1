@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-14T22:30:49.238Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="mBa4hldZveg-foG5CH6O" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-14T22:34:58.370Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="7NmZEN6jtqFC5ltzfabV" version="14.6.13" type="github">
   <diagram id="xhTGQpEdMfN5HkY3dnWF" name="Page-1">
     <mxGraphModel dx="1527" dy="1038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -90,6 +90,27 @@
         </mxCell>
         <mxCell id="jwXrqD8DB2JA0oPTdb8M-32" value="Accepted&lt;br&gt;CSV" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="245" y="260" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jwXrqD8DB2JA0oPTdb8M-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="60" width="110" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="jwXrqD8DB2JA0oPTdb8M-35" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jwXrqD8DB2JA0oPTdb8M-20" target="jwXrqD8DB2JA0oPTdb8M-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="470" as="sourcePoint" />
+            <mxPoint x="680" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jwXrqD8DB2JA0oPTdb8M-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="110" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jwXrqD8DB2JA0oPTdb8M-38" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="245" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jwXrqD8DB2JA0oPTdb8M-39" value="EOD Batch Load" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="130" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jwXrqD8DB2JA0oPTdb8M-40" value="Analytical ETL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="35" y="270" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
