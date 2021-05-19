@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-19T04:54:16.606Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="yikG0wvY8XGRhHc5u2xm" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-19T05:01:27.891Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="WHX3ViAa-BOaBB6yE6k0" version="14.6.13" type="github">
   <diagram id="xhTGQpEdMfN5HkY3dnWF" name="Page-1">
     <mxGraphModel dx="766" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,8 +10,8 @@
         <mxCell id="jwXrqD8DB2JA0oPTdb8M-3" value="EOD&lt;br&gt;Trade&lt;br&gt;Quote" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="440" y="180" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jwXrqD8DB2JA0oPTdb8M-7" value="&lt;h1&gt;Note to self:&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;- Our data is in&amp;nbsp;the form of JSON and CSV files.&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;- The data is provided and will be uploaded to Azure Blob storage.&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;- Afterwards, we will parse the JSON and CSV files&amp;nbsp;and load the data into Spark.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="30" y="520" width="490" height="165" as="geometry" />
+        <mxCell id="jwXrqD8DB2JA0oPTdb8M-7" value="&lt;h1&gt;Notes:&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;- Our data is in&amp;nbsp;the form of JSON and CSV files.&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;- The data is provided and will be uploaded to Azure Blob storage.&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;- Afterwards, we will parse the JSON and CSV files&amp;nbsp;and load the data into Spark.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Each arrow shows the direction of data flow.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- I am making assumption that the source1.csv and source2.csv files will be how we store incoming data from &quot;Analytical ETL&quot; and &quot;EOD Load&quot; into respective data storage solutions for &quot;EOD Trade Quote&quot; and &quot;quote-trade-analytical.&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="520" width="490" height="260" as="geometry" />
         </mxCell>
         <mxCell id="jwXrqD8DB2JA0oPTdb8M-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="340" width="90" height="50" as="geometry" />
@@ -121,16 +121,28 @@
             <mxPoint x="240" y="315" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZmxnJUbd2xQeFVasTvaD-27" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="jwXrqD8DB2JA0oPTdb8M-38" target="ZmxnJUbd2xQeFVasTvaD-18">
+        <mxCell id="ZmxnJUbd2xQeFVasTvaD-27" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jwXrqD8DB2JA0oPTdb8M-38" target="ZmxnJUbd2xQeFVasTvaD-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="330" as="sourcePoint" />
             <mxPoint x="230" y="50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZmxnJUbd2xQeFVasTvaD-28" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jwXrqD8DB2JA0oPTdb8M-37" target="ZmxnJUbd2xQeFVasTvaD-12">
+        <mxCell id="ZmxnJUbd2xQeFVasTvaD-28" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jwXrqD8DB2JA0oPTdb8M-37" target="ZmxnJUbd2xQeFVasTvaD-18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="140" as="sourcePoint" />
             <mxPoint x="230" y="127.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmxnJUbd2xQeFVasTvaD-30" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=40;entryPerimeter=0;" edge="1" parent="1" source="ZmxnJUbd2xQeFVasTvaD-18" target="jwXrqD8DB2JA0oPTdb8M-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="225" as="sourcePoint" />
+            <mxPoint x="410" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmxnJUbd2xQeFVasTvaD-31" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=40;entryPerimeter=0;" edge="1" parent="1" source="ZmxnJUbd2xQeFVasTvaD-12" target="ZmxnJUbd2xQeFVasTvaD-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="140" as="sourcePoint" />
+            <mxPoint x="230" y="175" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
