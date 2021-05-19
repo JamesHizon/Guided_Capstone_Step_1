@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-19T04:40:36.982Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="eFkDVVb5LzRbJhigayyB" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-19T04:43:52.992Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="Rtf_Sr6FcrJhvAs9TsX_" version="14.6.13" type="github">
   <diagram id="xhTGQpEdMfN5HkY3dnWF" name="Page-1">
-    <mxGraphModel dx="1018" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,28 +14,28 @@
           <mxGeometry x="30" y="520" width="490" height="165" as="geometry" />
         </mxCell>
         <mxCell id="jwXrqD8DB2JA0oPTdb8M-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="220" y="320" width="90" height="60" as="geometry" />
+          <mxGeometry x="220" y="340" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jwXrqD8DB2JA0oPTdb8M-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="220" y="400" width="90" height="60" as="geometry" />
+          <mxGeometry x="220" y="410" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jwXrqD8DB2JA0oPTdb8M-27" value="Rejected&lt;br&gt;CSV" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="245" y="420" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jwXrqD8DB2JA0oPTdb8M-28" value="Rejected&lt;br&gt;JSON" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="240" y="340" width="40" height="20" as="geometry" />
+          <mxGeometry x="245" y="355" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jwXrqD8DB2JA0oPTdb8M-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="220" y="170" width="90" height="60" as="geometry" />
+          <mxGeometry x="220" y="200" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jwXrqD8DB2JA0oPTdb8M-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="220" y="240" width="90" height="60" as="geometry" />
+          <mxGeometry x="220" y="270" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jwXrqD8DB2JA0oPTdb8M-31" value="Accepted&lt;br&gt;JSON" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="245" y="190" width="40" height="20" as="geometry" />
+          <mxGeometry x="245" y="210" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jwXrqD8DB2JA0oPTdb8M-32" value="Accepted&lt;br&gt;CSV" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="245" y="260" width="40" height="20" as="geometry" />
+          <mxGeometry x="245" y="280" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jwXrqD8DB2JA0oPTdb8M-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="200" width="90" height="60" as="geometry" />
@@ -71,7 +71,19 @@
           <mxGeometry x="220" y="10" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZmxnJUbd2xQeFVasTvaD-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="90" width="90" height="60" as="geometry" />
+          <mxGeometry x="220" y="140" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmxnJUbd2xQeFVasTvaD-14" value="Rejected&lt;br&gt;files" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="30" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmxnJUbd2xQeFVasTvaD-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="80" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmxnJUbd2xQeFVasTvaD-13" value="source1.csv" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="95" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmxnJUbd2xQeFVasTvaD-20" value="source2.csv" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="155" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
