@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-21T18:21:25.890Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="FKhbJ62wA2wRANrCdIC8" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-21T18:22:41.378Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="RQ5nTU2Rx1uACo8mx6Cl" version="14.6.13" type="github">
   <diagram id="xhTGQpEdMfN5HkY3dnWF" name="Page-1">
     <mxGraphModel dx="870" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="jwXrqD8DB2JA0oPTdb8M-3" value="EOD&lt;br&gt;Trade&lt;br&gt;Quote" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="440" y="180" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jwXrqD8DB2JA0oPTdb8M-7" value="&lt;h1&gt;Notes:&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;- Our data is in&amp;nbsp;the form of JSON and CSV files.&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;- The data is provided and will be uploaded to Azure Blob storage.&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;- Afterwards, we will parse the JSON and CSV files&amp;nbsp;and load the data into Spark.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Each arrow shows the direction of data flow.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- I am making assumption that the source1.csv and source2.csv files will be how we store incoming data from &quot;Analytical ETL&quot; and &quot;EOD Load&quot; into respective data storage solutions for &quot;EOD Trade Quote&quot; and &quot;quote-trade-analytical.&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Take note of the order of each step.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Step 3: End of Day Load -&amp;gt; Loads all progressively processed data for current day&lt;/div&gt;&lt;div&gt;into daily tables for trade and quote.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="jwXrqD8DB2JA0oPTdb8M-7" value="&lt;h1&gt;Notes:&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;- Our data is in&amp;nbsp;the form of JSON and CSV files.&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;- The data is provided and will be uploaded to Azure Blob storage.&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;- Afterwards, we will parse the JSON and CSV files&amp;nbsp;and load the data into Spark.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Each arrow shows the direction of data flow.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- I am making assumption that the source1.csv and source2.csv files will be how we store incoming data from &quot;Analytical ETL&quot; and &quot;EOD Load&quot; into respective data storage solutions for &quot;EOD Trade Quote&quot; and &quot;quote-trade-analytical.&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Take note of the order of each step.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Step 3: End of Day Load -&amp;gt; Loads all progressively processed data for current day&lt;/div&gt;&lt;div&gt;into daily tables for trade and quote. -&amp;gt; This may imply one source file for trade and one for quote.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="30" y="520" width="750" height="360" as="geometry" />
         </mxCell>
         <mxCell id="jwXrqD8DB2JA0oPTdb8M-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -161,6 +161,18 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="115" as="sourcePoint" />
             <mxPoint x="419" y="179.01999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NlLRoMa97Bdj_uzlT2Qg-15" value="" style="endArrow=classic;html=1;entryX=-0.04;entryY=0.638;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZmxnJUbd2xQeFVasTvaD-18" target="jwXrqD8DB2JA0oPTdb8M-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="115" as="sourcePoint" />
+            <mxPoint x="419" y="179.01999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NlLRoMa97Bdj_uzlT2Qg-16" value="" style="endArrow=classic;html=1;entryX=-0.03;entryY=0.238;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZmxnJUbd2xQeFVasTvaD-12" target="ZmxnJUbd2xQeFVasTvaD-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="315.08414828292007" y="140" as="sourcePoint" />
+            <mxPoint x="416" y="202.94000000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
